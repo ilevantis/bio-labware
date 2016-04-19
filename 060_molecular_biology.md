@@ -1,22 +1,22 @@
 ##Molecular Biology
 
 ###Table of contents
-- [Overview](https://github.com/symbiolab/bio-labware/blob/master/000_bio-labware_overview.md)
-- [General/wet preparation equipment](https://github.com/symbiolab/bio-labware/blob/master/010_general_preparation.md)
-- [Microscopy](https://github.com/symbiolab/bio-labware/blob/master/020_microscopy.md)
-- [Spectroscopy](https://github.com/symbiolab/bio-labware/blob/master/030_spectroscopy.md)
-- [Chromatography (separation)](https://github.com/symbiolab/bio-labware/blob/master/040_chromatography_sep.md)
-- [Chromatography (detection)](https://github.com/symbiolab/bio-labware/blob/master/050_chromatography_det.md)
+- [Overview](000_bio-labware_overview.md)
+- [General/wet preparation equipment](010_general_preparation.md)
+- [Microscopy](020_microscopy.md)
+- [Spectroscopy](030_spectroscopy.md)
+- [Chromatography (separation)](040_chromatography_sep.md)
+- [Chromatography (detection)](050_chromatography_det.md)
 - [Molecular Biology](#Section-5)
   * [Immunoassay analyzer / plate reader](#ELISA)
   * [Blotting device](#blot)
   * [Darkroom and photo-processing](#darkroom)
   * [Thermocycler / PCR machine](#PCR)
   * [Gene gun](#gene-gun)
-- [Cell culture](https://github.com/symbiolab/bio-labware/blob/master/070_cell_culture.md)
-- [Electrophysiology](https://github.com/symbiolab/bio-labware/blob/master/080_electrophysiology.md)
-- [3D Bioprinting](https://github.com/symbiolab/bio-labware/blob/master/090_3d_bioprint.md)
-- [Various methods](https://github.com/symbiolab/bio-labware/blob/master/100_various.md)
+- [Cell culture](070_cell_culture.md)
+- [Electrophysiology](080_electrophysiology.md)
+- [3D Bioprinting](090_3d_bioprint.md)
+- [Various methods](100_various.md)
 
 
 To understand how life works, one has to study all it's aspects and one of the crucial approaches in this regard is what we call molecular Biology. Its focus lies on the investigation of biological molecules, especially genes and proteins and the correlation between their structure, functions and interactions.
@@ -71,7 +71,7 @@ Which one to use, seems to be a thing of personal preference, more than a perfor
 Keywords: blotting, western, southern, electroblotting, membrane, semi-dry, tank, wet
 
 ####2. Commercial variants
-Blotters cost a few hundred € to a little over a 1000€, used devices are available for around 300€, depending on the device conditions. A semi-dry or wet blotter is, however, not sufficient to run a sample transfer by itself. Just as the electrophoresis chamber, it also requires a power supply, as discussed in the [chromatography chapter](https://github.com/symbiolab/bio-labware/blob/master/040_chromatography_sep.md#Gel-electrophoresis).
+Blotters cost a few hundred € to a little over a 1000€, used devices are available for around 300€, depending on the device conditions. A semi-dry or wet blotter is, however, not sufficient to run a sample transfer by itself. Just as the electrophoresis chamber, it also requires a power supply, as discussed in the [chromatography chapter](040_chromatography_sep.md#Gel-electrophoresis).
 
 ####3. Available DIY resources
 There really aren't any well documented DIY blotters on the internet, despite the basic construction is nothing else than a large capacitor, that is connected to a power supply. As discussed in previous chapters, the DIY molecular bioresearch community seems to focus more on DNA analysis, compared to that of proteins. Interesting development does, however, seem to be appearing in the development of novel protein analysis systems on a research level, as described [here](http://www.asbmb.org/asbmbtoday/asbmbtoday_article_print.aspx?id=15430).
@@ -116,20 +116,26 @@ Immunohistochemical imaging would require a completely dark chamber and some for
 Source: By Enzoklop - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=32003643
 
 ####1. Background
-Thermocyclers are devices used to multiply DNA fragments, by the enzymatic activity of the "*Taq* (isolated from the thermophilic bacterium *Thermus aquaticus*) polymerase" in the so called polymerase chain reaction or PCR for short. For the reaction to take place sucessfully, several different steps (DNA melting, primer linking, enzyme dependent elongation) need to occur, which happens at very specific temperatures. For a maximum yield it is therefore important that the temperature and time of each step be as precise as possible. This is what thermocyclers are used for - to rapidly change and hold the temperature of the reaction for a predetermined amount of time.
+Thermocyclers are devices used to multiply DNA fragments, by the enzymatic activity of the "*Taq* (isolated from the thermophilic bacterium *Thermus aquaticus*) polymerase" in the so called polymerase chain reaction or PCR for short. For the reaction to take place successfully, several different steps (DNA melting, primer linking, enzyme dependent elongation) need to occur, which happens at very specific temperatures. For a maximum yield it is therefore important that the temperature and time of each step be as precise as possible. This is what thermocyclers are used for - to rapidly change and hold the temperature of the reaction for a predetermined amount of time.
 
 More about DNA analysis and the PCR can be read [here](http://www.ncbi.nlm.nih.gov/probe/docs/techpcr/) and [here](http://learn.genetics.utah.edu/content/labs/pcr/).
 
 Keywords: thermocycler, DNA, polymerase, chain, reaction, PCR
 
 ####2. Commercial variants
-Many commercial devices are available for a few thousand €, but can also reach amounts above 10k€. Just recently, however, a new [kickstarter project]() went online, called [Bento lab](http://www.bento.bio/bento-lab/). It offers a portable DNA analysis set, including a thermocycler, pipette, centrifuge, gel electrophoresis and translumination unit for 699£ (kickstarter price). While there are no DIY instructions available (yet), it could prove difficult to make a set of DIY tools that offer the functionality but are still cheaper. But time will tell.
+Many commercial devices are available for a few thousand euros, but can also reach amounts above €10k. 2nd hand units can be found online for €200-€300, models from over 10 years ago are generally just as capable as modern day units (provided they are modern enough to be based on a solid heating and cooling block design).
+
+Just recently, however, a new [kickstarter project](https://www.kickstarter.com/projects/339005690/bento-lab-a-dna-laboratory-for-everybody) went online, called [Bento lab](http://www.bento.bio/bento-lab/). It offers a portable DNA analysis set, including a thermocycler, pipette, centrifuge, gel electrophoresis and translumination unit for £699 (kickstarter price). While there are no DIY instructions available (yet), it could prove difficult to make a set of DIY tools that offer the functionality but are still cheaper. But time will tell.
 
 ####3. Available DIY resources
-As genetics is one of the more popular field among DIY Biologists, thermocyclers are available in many forms, ranging from a recycled electronic [coffe cup](http://www.instructables.com/id/Coffee-Cup-PCR-Thermocycler-costing-under-350/?ALLSTEPS), to maybe the commonly best known [OpenPCR](http://openpcr.org/), which has also had its redesigns, such as the [Wild OpenPCR](http://hackteria.org/wiki/index.php/Wild_OpenPCR). Possibly the ceapest version up to date is the [Arduino PCR](http://www.instructables.com/id/Arduino-PCR-thermal-cycler-for-under-85/?ALLSTEPS). 
+As genetics is one of the more popular field among DIY Biologists, thermocyclers are available in many forms, ranging from a recycled electronic [coffe cup](http://www.instructables.com/id/Coffee-Cup-PCR-Thermocycler-costing-under-350/?ALLSTEPS), to maybe the commonly best known [OpenPCR](http://openpcr.org/), which has also had its redesigns, such as [NinjaPCR](https://github.com/hisashin/NinjaPCR/) and [Wild OpenPCR](http://hackteria.org/wiki/index.php/Wild_OpenPCR). Possibly the cheapest version up to date is the [Arduino PCR](http://www.instructables.com/id/Arduino-PCR-thermal-cycler-for-under-85/?ALLSTEPS).
+
+A very cheap but extremely annoying to use method, perhaps suitable for a one-off PCR reaction, is to manually move the PCR reaction tube between 3 water baths set to 95°C, 60°C, and 72°C.
 
 ####4. Is DIY good enough and reasonable?
-Most critical in a PCR is the precise and accurate temperature and time control. This requires adequate means of heating cooling (usually by peltier elements), fast and even heat transfer to/from the sample (metal blocks) and temperature sensing/regulation. How the DIY devices perform is hard to say without measurement data, however, considering the cheap and available materials, which are at disposal, it is possible, little can be done to improve the price/quality ratio.
+Most critical in a PCR is the precise and accurate temperature and time control. This requires adequate means of heating and cooling (usually by peltier elements), fast and even heat transfer to/from the sample (metal blocks) and temperature sensing/regulation. How the DIY devices perform is hard to say without measurement data, however, considering the cheap and available materials, which are at disposal, it is possible, little can be done to improve the price/quality ratio.
+
+The best option for many DIY labs will be to look for 2nd hand PCR machines in order to obtain a precise and reliable unit at a low price.
 
 ####5. Requirements and plans
 As discussed above, a PCR requires precise and accurate heating and cooling for exact amounts of time with fast transitions between the different phases. One should not forget, however, that a PCR also requires adequate enzymes and primers for the reaction to yield any results.
